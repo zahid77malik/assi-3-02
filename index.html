@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nature Platter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/3d8e61f7fc.js" crossorigin="anonymous"></script>
+    
+    
+  </head>
+  <body>
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-[#FFFFFF] mb-20">
+      <nav>
+        <div
+          class="flex justify-between items-center mb-5 md:grid md:grid-cols-3 md:justify-center md:items-center md:w-5/6 mx-auto md:mb-20 mt-4"
+        >
+          <div>
+            <img class="md:hidden" src="c2-assets/logo-footer.png" alt="" />
+            <img
+              class="hidden md:block"
+              src="c2-assets/logo-header.png"
+              alt=""
+            />
+          </div>
+          <div class="hidden md:list-none md:flex items-center gap-4">
+            <li>Product</li>
+            <li>Services</li>
+            <li>Contact us</li>
+          </div>
+          <div class="hidden md:flex md:justify-center items-center gap-3">
+            <div>
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div>
+              <button
+                class="bg-white text-black rounded-lg py-2 px-5 border border-green-400"
+              >
+                Login
+              </button>
+            </div>
+            <div>
+              <button class="bg-[#179800] text-white rounded-lg py-2 px-5">
+                Register
+              </button>
+            </div>
+          </div>
+          <div class="md:hidden">
+            <svg
+              width="30"
+              height="30"
+              viewBox="0 0 30 30"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M3.75 8.4375C3.75 7.91973 4.16973 7.5 4.6875 7.5H25.3125C25.8303 7.5 26.25 7.91973 26.25 8.4375C26.25 8.95527 25.8303 9.375 25.3125 9.375H4.6875C4.16973 9.375 3.75 8.95527 3.75 8.4375ZM3.75 15C3.75 14.4822 4.16973 14.0625 4.6875 14.0625H25.3125C25.8303 14.0625 26.25 14.4822 26.25 15C26.25 15.5178 25.8303 15.9375 25.3125 15.9375H4.6875C4.16973 15.9375 3.75 15.5178 3.75 15ZM3.75 21.5625C3.75 21.0447 4.16973 20.625 4.6875 20.625H25.3125C25.8303 20.625 26.25 21.0447 26.25 21.5625C26.25 22.0803 25.8303 22.5 25.3125 22.5H4.6875C4.16973 22.5 3.75 22.0803 3.75 21.5625Z"
+                fill="#179800"
+              />
+            </svg>
+          </div>
+        </div>
+        <hr class="bg-green-700 md:hidden" />
+      </nav>
+      <div class="flex flex-col justify-center items-center ">
+        <div class="">
+          <h1 class="font-semibold text-[56px] text-center">
+            Freshness
+            <span class="text-[#179800]"
+              >You Can <br/>
+              Count On,</span
+            >
+            Prices You’ll Love!
+          </h1>
+          <p>
+            Shop your daily essentials at unbeatable prices. From fresh produce
+            to pantry staples, we’ve got you covered every day!
+          </p>
+        </div>
+        <div>
+          <img
+            class=" animate-pulse"
+            src="c2-assets/hero-vegetables.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="flex flex-col justify-center w-10/12 mx-auto">
+        <h1 class="font-semibold text-4xl my-5 text-green-700">Services</h1>
+        <div class="grid grid-cols-1 md:grid md:grid-cols-3 md:gap-5 ">
+            <div class="bg-[#EFEBE3] flex flex-col justify-center items-center p-6 gap-2  rounded-lg md:pl-0 md:ml-0">
+                <div class="bg-white rounded-full"><img class="p-3" src="c2-assets/service.png" alt=""></div>
+                <div class="text-center">
+                    <h1 class="m-3 font-semibold text-[20px]">24/7 Services </h1>
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+            <div class="bg-[#EFEBE3] flex flex-col justify-center items-center p-6 gap-2  my-3  rounded-lg md:my-0">
+                <div class="bg-white rounded-full"><img class="p-3" src="c2-assets/delivery.png" alt=""></div>
+                <div class="text-center">
+                    <h1 class="m-3 font-semibold text-[20px]">Fast Delivery</h1>
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+            <div class="bg-[#EFEBE3] flex flex-col justify-center items-center p-6 gap-2  rounded-lg">
+                <div class="bg-white rounded-full"><img class="p-3" src="c2-assets/healthy.png" alt=""></div>
+                <div class="text-center">
+                    <h1 class="m-3 font-semibold text-[20px]">Healthy Products  </h1>
+                    <p class="text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
+            </div>
+        </div>
+      </section>
+
+    </main>
+    <footer></footer>
+  </body>
+</html>
